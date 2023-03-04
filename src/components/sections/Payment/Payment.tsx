@@ -3,6 +3,8 @@ import {IPayment, IPaymentItem} from "../../../shared/interfaces/IPayment";
 import styled from 'styled-components';
 import {IPaymentAmount} from "../../../shared/interfaces/IPaymentAmount";
 import './Payment.css'
+import payment from '../../../assets/payment.svg'
+
 
 const Payment = ({payment}: IPayment) => {
   if (payment.length === 0) {
@@ -28,7 +30,7 @@ const Payment = ({payment}: IPayment) => {
     return(
     <div className="payment-block" >
       <div className="payment-icon">
-        <img src="/src/icon/payment.svg" width="30px" height="30px" alt="icon" />
+        <img src={payment} width="30px" height="30px" alt="icon" />
       </div>
       <div className="payment-text">
         {name}

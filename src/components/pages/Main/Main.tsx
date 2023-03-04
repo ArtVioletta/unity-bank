@@ -5,14 +5,11 @@ import Menu from "../../sections/Menu/Menu";
 import Balance from "../../sections/Balance/Balance";
 import Header from "../../sections/Header/Header";
 import Page from "../../sections/Page/Page";
+import {COURSE_PRICE, GET_MONEY, LIMIT_BALANCE, SALARY_AMOUNT, START_BALANCE} from "../../../data/menuConfigurations";
+import get from '../../../assets/get.svg'
+import money from '../../../assets/money.svg'
+import another from '../../../assets/another.svg'
 
-
-///configurations
-const START_BALANCE = 0;
-const LIMIT_BALANCE = 500000000000;
-const GET_MONEY = 100;
-const SALARY_AMOUNT = 1000;
-const COURSE_PRICE = 400;
 
 const Main = () => {
   const [balance, setBalance] = React.useState(START_BALANCE);
@@ -82,22 +79,22 @@ const Main = () => {
           {
             name: "Top up your balance",
             onClick: getMoney,
-            img: "/icon/get.svg"
+            img: get
           },
           {
             name: "Get a salary",
             onClick: getSalary,
-            img: "/icon/money.svg"
+            img: money
           },
           {
             name: "Buy a course",
             onClick: buyCourse,
-            img: "/icon/another.svg"
+            img: another
           },
           {
             name: "Buy food at Glovo",
             onClick: buyFood,
-            img: "/icon/another.svg"
+            img: another
           }
         ]}
       />
