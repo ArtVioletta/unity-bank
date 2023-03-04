@@ -1,6 +1,6 @@
 import React from 'react';
 import {IPayment, IPaymentItem} from "../../../shared/interfaces/IPayment";
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 import {IPaymentAmount} from "../../../shared/interfaces/IPaymentAmount";
 import './Payment.css'
 
@@ -28,7 +28,7 @@ const Payment = ({payment}: IPayment) => {
     return(
     <div className="payment-block" >
       <div className="payment-icon">
-        <img src="/icon/payment.svg" width="30px" height="30px" alt="icon" />
+        <img src="/src/icon/payment.svg" width="30px" height="30px" alt="icon" />
       </div>
       <div className="payment-text">
         {name}
