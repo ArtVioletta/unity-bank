@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/unity-bank/static/css/main.f974bdb2.css",
-    "main.js": "/unity-bank/static/js/main.4a3a7386.js",
+    "main.js": "/unity-bank/static/js/main.7c60fc66.js",
     "static/js/787.b5038fec.chunk.js": "/unity-bank/static/js/787.b5038fec.chunk.js",
+    "static/media/money.svg": "/unity-bank/static/media/money.4e008db160149ad005fd619ca4d04c61.svg",
+    "static/media/payment.svg": "/unity-bank/static/media/payment.28d9049a334b524d35f966eac6d8470c.svg",
     "index.html": "/unity-bank/index.html",
+    "static/media/another.svg": "/unity-bank/static/media/another.73798de52c3d0f5afd9133cc1fcec76b.svg",
+    "static/media/get.svg": "/unity-bank/static/media/get.2fff45bb337dd76fecdd936faaf7c3dc.svg",
     "main.f974bdb2.css.map": "/unity-bank/static/css/main.f974bdb2.css.map",
-    "main.4a3a7386.js.map": "/unity-bank/static/js/main.4a3a7386.js.map",
+    "main.7c60fc66.js.map": "/unity-bank/static/js/main.7c60fc66.js.map",
     "787.b5038fec.chunk.js.map": "/unity-bank/static/js/787.b5038fec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f974bdb2.css",
-    "static/js/main.4a3a7386.js"
+    "static/js/main.7c60fc66.js"
   ]
 }
